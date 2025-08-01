@@ -37,16 +37,22 @@
       border-right: 2px solid rgba(157, 155, 155, 0.833);
       background-color: transparent;
     }
+    .title{
+      transition: 0.3s;
+    }
+    .title:hover{
+      color: teal;
+    }
   </style>
   <body>
     <section>
       <div class="container py-5">
         <div class="row">
           <div class="col-12 col-xl-12 mb-3">
-            <div class="w-75 border rounded mx-auto shadow py-2">
-              <div class="d-flex justify-content-between align-items-center">
+            <div class="w-75 border rounded mx-auto shadow ">
+              <div class="d-flex justify-content-between align-items-center ">
                 <h3
-                  class="px-4 py-2"
+                  class="title px-4 w-100 mb-0 py-3"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseExample"
@@ -123,10 +129,10 @@
             </div>
           </div>
           <div class="col-12 col-xl-12">
-            <div class="w-75 border rounded mx-auto shadow py-2">
+            <div class="w-75 border rounded mx-auto shadow ">
               <div class="d-flex justify-content-between align-items-center">
                 <h3
-                  class="px-4 py-2"
+                  class="title px-4 py-3 mb-0 "
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseExamples"
